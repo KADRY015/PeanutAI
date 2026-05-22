@@ -192,7 +192,7 @@ elif menu == "📚 Ensiklopedia":
 # ----------------- HALAMAN 5: PROFIL TIM -----------------
 elif menu == "👥 Tim Kami":
     st.title("👥 Tim Pengembang Sistem")
-    st.write("Proyek kolaborasi cerdas ini disusun untuk memenuhi tugas ujian tengah semester (Mid Test).")
+    st.write("Proyek kecerdasan Buatan.")
     st.write("---")
     
     st.info("💡 **Anggota Kelompok :**")
@@ -202,8 +202,8 @@ elif menu == "👥 Tim Kami":
     * **Anggota 3:** [NUR KADRI] - *Backend Developer (Machine Learning)*
     * **Anggota 4:** [ASRIANI] - *UI/UX Designer (Streamlit Frontend)*
     """)
-    st.success("Sistem ini siap diujikan di hadapan dosen penguji. Semangat untuk Tim Proyek 2026!")
+    st.success("Sistem ini siap untuk digunakan.")
 
 # FOOTER KONSISTEN DI BAWAH SIDEBAR
 st.sidebar.write("---")
-st.sidebar.caption("Aplikasi Mid Test TI © 2026")
+st.sidebar.caption("Aplikasi PeanutAI © 2026")
